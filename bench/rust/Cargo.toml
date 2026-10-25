@@ -1,0 +1,16 @@
+[package]
+name = "runner"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+comrak = { version = "=0.57.0", default-features = false }
+ox_content_allocator = "=3.4.0"
+ox_content_parser = "=3.4.0"
+ox_content_renderer = "=3.4.0"
+pulldown-cmark = { version = "=0.13.5", default-features = false, features = ["html"] }
+
+[profile.release]
+lto = true
+codegen-units = 1
