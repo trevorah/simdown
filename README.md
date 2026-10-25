@@ -1,6 +1,8 @@
 # simdown
 
-The fastest markdown parser (CommonMark flavour). Uses Go's (experimental) simd support to avoid cpu branching.
+A CommonMark-compliant Markdown parser for Go that uses experimental SIMD support for raw performance.
+
+It scans input in SIMD blocks to reach ~960 MB/s on an Apple M4. This currently puts it faster than every other benchmarked parser including pulldown-cmark, md4c and cmark.
 
 ## Benchmarks
 
