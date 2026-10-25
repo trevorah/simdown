@@ -122,3 +122,7 @@ Honestly, to try the new built-in simd package (`simd/archsimd`, still experimen
 ## AI disclosure
 
 AI has been used to help write the code, mainly for the boring spec correctness bits.
+
+## License
+
+MIT, see [LICENSE](LICENSE). The files in `testdata/` are third-party: `spec.json` is derived from the [CommonMark spec](https://spec.commonmark.org/) (CC BY-SA 4.0) and `CaseFolding.txt` is from the [Unicode Character Database](https://www.unicode.org/license.txt) (Unicode License v3).
