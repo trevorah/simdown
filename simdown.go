@@ -6,7 +6,7 @@ import (
 	"bytes"
 	"sync"
 
-	"simdown/internal/index"
+	"github.com/trevorah/simdown/internal/index"
 )
 
 // ToHTML converts CommonMark to HTML. For example,

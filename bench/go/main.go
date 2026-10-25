@@ -14,7 +14,7 @@ import (
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/renderer/html"
 
-	"simdown"
+	"github.com/trevorah/simdown"
 )
 
 func main() {

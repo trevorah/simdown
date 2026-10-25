@@ -1,3 +1,3 @@
-module simdown
+module github.com/trevorah/simdown
 
-go 1.27.1
+go 1.27

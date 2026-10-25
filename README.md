@@ -38,7 +38,7 @@ See [bench/README.md](bench/README.md) for how each parser is configured and tim
 Requires Go 1.27 or later. To see the benefits you'll need an arm64 machine (e.g. Apple Silicon) and to build with `GOEXPERIMENT=simd`, as below.
 
 ```go
-import "simdown"
+import "github.com/trevorah/simdown"
 
 html := simdown.ToHTML([]byte("# Hello\n\nSome *markdown*.\n"))
 // <h1>Hello</h1>

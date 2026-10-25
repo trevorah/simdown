@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"simdown/internal/index"
+	"github.com/trevorah/simdown/internal/index"
 )
 
 // The corpus tests run over a directory of Markdown files, such as the one
